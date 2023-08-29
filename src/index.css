@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app{
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*track: scroll bar's all space that able to move's backgroud*/
+::webkit-scrollbar-track {
+  background-color: #e0e0e0;
+}
+
+/*when not touching, just byitself how it looks like*/
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/*when hover to it how it looks like*/
+::-webkit-scrollbar-thumb:hover {
+  background:#555;
+  background:#e1e2fe;
+  background:#c3c6fd;
+  background:#a4a9fc;
+  background:#868dfb;
+  background:#6870fa;
+  background:#535ac8;
+  background:#3e4396;
+  background: #2a2d64;
+  background:#151632 ;
+
+  background:#bcdcf6 ;
+  background: #a4d4fb;
+  background: #77b6e9;
+  background: #59a0da;
+  background: #4484b8;
+  background: #2b5e88;
+  background:#19466b ;
+  background: #0e2f4a;
+  background:#030e17 ;
+
+}
+
+/*
+1. position: relative if need to based on the parent to move child elements then set parent relative
+2. 为了确保滚动条样式在所有的浏览器中都能正常使用，最好同时提供 -webkit-scrollbar 和标准的非前缀版本
+适用于 WebKit 浏览器，如 Safari 和一些旧版的 Chrome 注意：这里使用 -webkit-scrollbar 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+适用于现代浏览器，不使用前缀
+ 注意：这里不使用前缀 
+  添加标准的滚动条样式，以便在现代浏览器中生效
+scrollbar {
+  width: 8px;
+}
+*/
+
